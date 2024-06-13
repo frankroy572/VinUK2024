@@ -1,0 +1,317 @@
+#head{
+    background-color: rgb(23, 82, 172);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    border: solid black 2px;
+    margin-top: 0px;
+}
+.tit{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(235, 238, 238);
+}
+
+.dropdown{
+    width: 10rem;
+    position: relative;
+    color: rgb(238, 238, 238);
+    padding-bottom: 4px;
+}
+.dropdown-select{
+    cursor: pointer;
+    justify-content: space-between;
+}
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-list{
+    border-radius: 4px;
+    background-color: rgb(23, 82, 172);
+    width: 160px;
+    padding: 3px;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    border: solid black 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear; 
+    line-height: 1.5;
+}
+.dropdown-list__item{
+    padding: 4;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+h1{
+    font-family: Arial;
+    font-size: 25px;
+    margin: 20px 10px 20px 10px;
+}
+a:link , :visited{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: rgb(23, 172, 115);
+    text-decoration: underline;
+    text-decoration: none;
+}
+.symbol{
+    height: 100px;
+    float: left;
+    margin: 20px;
+    margin-right: 0px;
+    margin-left: 3vw;
+}
+.pids {
+    text-align: right;
+    float: right;
+    margin: 30px 20px 0px 30px;
+    width: 200px;
+    background-color:rgb(23, 82, 172);
+}
+
+.symbol1{
+    height: 90px;
+    margin: 20px 0px 20px 230px;
+}
+#legs{
+    width: 100%;
+    background-color: rgb(23, 82, 172);
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 100px;
+    
+}
+.hrefs:hover{
+    text-decoration: underline;
+    color: rgb(199, 219, 19);
+}
+.warUk{
+    float: right;
+    height: 220px;
+    width: 370px;
+    margin: 10px 15px 10px 10px;
+}
+.space{
+    height: 130px;
+}
+.e{
+    text-align: center;
+    font-size: 30px;
+}
+.r{
+    margin: 0px 0px 30px 30px;
+    height: 45px;
+    width: 500px;
+    background-color: rgb(23, 82, 172);
+}
+.rk{
+    margin: 0px 0px 30px 30px;
+    height: 7060px;
+    width: 925px;
+    background-color: rgb(23, 82, 172);
+}
+.rk1{
+    margin: 0px 0px 30px 30px;
+    height: 30px;
+    width: 500px;
+    background-color: rgb(23, 82, 172);
+}
+.vd{
+    width: 500px;
+    height: 400px;
+    margin: 0px 300px 0px 240px;
+}
+.vd1{
+    width: 980;
+    height: 400px;
+    background-color:rgb(23, 82, 172);
+}
+body{
+    background: url(nastol.com.ua-23201.jpg) no-repeat fixed;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+.main{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 3140px;
+    width: 980px;
+    margin: 0 auto;
+}
+.q{
+    text-indent: 30px;
+    font-size: 40px;
+}
+.text{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 20px 0px 20px;
+    font-family: Arial;
+    line-height: 1.5;
+}
+.line{
+    height: 0px;
+    width: 96%;
+    margin: 0px 0px 0px 20px;
+    border: solid 2px gray;
+    
+}
+.w{
+    text-indent: 30px;
+    font-size: 25px;
+}
+.main2{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 4260px;
+    width: 980px;
+    margin: 0 auto;
+}
+.map{
+    margin: 30px 60px 0px 85px;
+    height:600px;
+    width: 800px;
+    border: solid 2px darkturquoise;
+}
+.tips{
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    font-family: Arial;
+    line-height: 1.5;
+    color: grey;
+}
+.tips1{
+    text-align: center;
+    margin: 0px 20px 0px 600px;
+    font-family: Arial;
+    line-height: 1.5;
+    color: grey;
+}
+
+.td{
+    font-family: Arial;
+    text-indent: 10px;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+.emblem{
+    height: 80px;
+    width: 80px;
+}
+
+.chark{
+    float: right;
+    height: 420px;
+    width: 370px;
+    margin: 10px 15px 10px 10px;
+    border: solid 2px darkturquoise;
+}
+
+.main1{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 2750px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.war2022{
+    width: 900px;
+    height: 400px;
+    margin-left: 40px;
+}
+.thlong , .tdlong{
+    font-family: Arial;
+    text-indent: 30px;
+    text-align: justify;
+    height: 40px;
+    width: 500px;
+}
+
+
+.main4{
+     background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 2850px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.stats{
+    float: right;
+    margin: 10px 15px 10px 10px;
+    height: 225px;
+    width: 370px;
+    border: solid 2px darkturquoise;
+}
+
+.main5{
+     background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 3070px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+.a1{
+    color:darkturquoise;
+    font-family: Arial;
+}
+.main01{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 2370px;
+    width: 980px;
+    margin: 0 auto;
+}
+.war2024{
+    float: right;
+    text-align: center;
+    margin: 0px 15px 0px 10px;
+}
+
+.main02{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 2800px;
+    width: 980px;
+    margin: 0 auto;
+}
+.ley{
+    float: right;
+    text-align: center;
+    margin: 30px;
+}
+.sup01{
+    height: 120px;
+    width: 160px;
+}
+.sup02{
+    height: 920px;
+    width: 460px;
+}
+
+
+.main03{
+    background-color: azure;
+    margin: 0px 270px 0px 270px;
+    height: 7325px;
+    width: 980px;
+    margin: 0 auto;
+}
